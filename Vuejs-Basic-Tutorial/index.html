@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue.Js Bind</title>
+    <!-- development version, includes helpful console warnings -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <h1>{{ title }}</h1>
+      <p>Merhaba kullanıcı. Burada Vue.js ile birşeyler deniyoruz. Buradaki <a v-bind:href="link">Link'e</a> tıklayarak web sitemi ziyaret edebilirsin.
+
+      </p>
+    </div>
+  </body>
+
+  <script>
+    new Vue({
+      el: "#app",
+      data: {
+        title: "Hello Vue.Js",
+        link : "https://www.furkanozay.me"
+      },
+    });
+  </script>
+</html>
