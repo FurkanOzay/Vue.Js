@@ -8,6 +8,7 @@ Vue.js hakkında detaylı olmayan ve başlangıç niteliğindedir. W3School örn
 
 Vue.js de basit Vue Template ve Vue Instance kullanılarak, dinamik olarak başlık paragraf link ve görsel yerleştirme işlemi.
 
-*Attribute Bind and String Interpolation*
+>>*Attribute Bind and String Interpolation*
+
 Dosyayı çalıştırmak için ek bir işlem yapılmasına gerek yok. Html içeriğinde cdn linki ile Vue.js
 çalıştırılabilir.
